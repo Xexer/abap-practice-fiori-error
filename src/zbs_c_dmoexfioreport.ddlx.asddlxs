@@ -1,0 +1,28 @@
+@Metadata.layer: #CUSTOMER
+@UI.headerInfo.typeName: 'Item'
+@UI.headerInfo.typeNamePlural: 'Items'
+annotate entity ZBS_C_DMOExFioReport with
+{
+  @UI.selectionField: [{ position: 10 }]
+  @UI.lineItem: [{ position: 10 }]
+  DocumentId;
+
+  @UI.lineItem: [{ position: 20 }]
+  CreationDate;
+
+  @UI.lineItem: [{ position: 30 }]
+  CountryName;
+
+  @UI.selectionField: [{ position: 20 }]
+  @UI.lineItem: [{ position: 40 }]
+  PositionNumber;
+
+  @UI.lineItem: [{ position: 50 }]
+  Customer;
+
+  @UI.lineItem: [{ position: 60 }]
+  NoteId;
+
+  @UI.lineItem: [{ position: 70 }]
+  Description;
+}

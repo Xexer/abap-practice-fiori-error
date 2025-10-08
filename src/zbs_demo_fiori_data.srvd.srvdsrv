@@ -1,0 +1,4 @@
+@EndUserText.label: 'Fiori Data'
+define service ZBS_DEMO_FIORI_DATA {
+  expose ZBS_C_DMOExFioReport as Reporting;
+}
